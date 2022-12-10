@@ -1,0 +1,154 @@
+body{
+    background: url(/Assets/Images/Bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header{
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.links a{
+    font-size: 25px;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.l1{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.main{
+    text-align: center;
+    align-items: center;
+}
+.myname,.maindescription{
+    color: white;
+}
+.aboutheading,.portfolioheading,.pythonheading,.HTMLheading,.contactheading,.chead{
+    text-align: center;
+    color: white;
+
+}
+.maindescription{
+    margin-bottom: 120px;
+}
+.myabout{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 120px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.Education,.Skills,.Hobbies{
+    height: 40vh;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    border: solid white 2px;
+    width: 100%;
+    border-radius: 6%;
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+}
+.Eduction{
+    margin-left: 80px;
+}
+.Skills{
+    margin-right: 80px;
+}
+.econt p,.hcont p,.scont p{
+    font-size: larger;
+}
+.pythonprojects,.HTML-and-CSS-Projects{
+    display: flex;
+    justify-content: space-between;
+}
+.prj1img,.prj2img,.prj3img,.prj4img,.prj5img,.prj6img,.prj7img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    align-items: center;
+    margin: 40px;
+}
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p11,.p12,.p13,.p14{
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    margin: 10px;
+    color: whitesmoke;
+}
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a11,.a12,.a13,.a14{
+    text-decoration: none;
+
+}
+.prj1,.prj2,.prj3,.prj4{
+    align-items: center;
+}
+.prjimg3{
+    margin-right: 20px;
+}
+.github,.insta,.linkedin,.discord{
+    align-items: center;
+    text-align: center;
+}
+.i1,.i2,.i3,.i4{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.contactlinks{
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    margin: 40px;
+    padding: 20px;
+}
+.contactheading{
+    margin: 40px 40px;
+
+}
+.myname{
+    font-size: 40px;
+}
+.maindescription,.aboutheading{
+    font-size: 30px;
+}
+.myabout{
+    font-size: 25px;
+}
+.a11:hover,.a12:hover,.a13:hover,.a14:hover{
+    cursor: pointer;
+}
+.aa:hover{
+    color: red;
+    cursor: pointer;
+}
+.l1:hover{
+    color: red;
+    cursor: pointer;
+}
+.aboutheading,.portfolioheading{
+    font-size: 50px;
+}
